@@ -69,13 +69,13 @@
     ]
   },
   {
-    "path": "M 261,-64 A 62.002 62.002 0 0 1 182,4",
+    "path": "M 261,-74 A 62.002 62.002 0 0 1 182,4",
     "text": "Even with three wins, AZE can still be eliminated",
     "team": "AZE",
     "lw": 24,
     "textOffset": [
-    165,
-    -88
+    150,
+    -100
     ]
   }
 ]

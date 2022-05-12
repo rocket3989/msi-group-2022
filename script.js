@@ -384,7 +384,7 @@ function drawResults3(sel, scenarios, name, complete, incomplete){
 
     sel.st({marginTop: 90})
     if (name == 'ORD')
-        sel.st({margin:'0px auto', display:'block', width:300, marginBottom:0, marginTop:-72})
+        sel.st({margin:'0px auto', display:'block', width:300, marginBottom:0, marginTop:-45})
 
     
     var width = 300 , height = 300
