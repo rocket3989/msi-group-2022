@@ -24,7 +24,7 @@ function readFile(){
             d.allTeams = d.t1 + '-' + d.t2
             if (!teams2wins[d.t1]) teams2wins[d.t1] = 0
             if (!teams2wins[d.t2]) teams2wins[d.t2] = 0
-            if (d.date < "05-09") teams2wins[d.wName]++     //make sure to change key each year
+            if (d.date < "05-13") teams2wins[d.wName]++     //make sure to change key each year
         })
         byGroup = d3.nestBy(matches, ƒ('group'))
         reDraw();
@@ -149,7 +149,7 @@ function drawGroup(gMatches){
 
     sel.appendMany('div.team', teams)
         .each(function(d){ 
-            if (["RNG", "PGG", "UOL"].includes(d.name)) {
+            if (["G2", "EG", "ORD"].includes(d.name)) {
                 drawResults3(d3.select(this), scenarios, d.name, complete, incomplete) 
 
             }
@@ -382,9 +382,9 @@ function drawResults3(sel, scenarios, name, complete, incomplete){
         d.byRecord2.reverse()
     })
 
-    sel.st({marginTop: -30})
-    if (name == 'RNG')
-        sel.st({margin:'0px auto', display:'block', width:300, marginBottom:0, marginTop:90})
+    sel.st({marginTop: 90})
+    if (name == 'ORD')
+        sel.st({margin:'0px auto', display:'block', width:300, marginBottom:0, marginTop:-50})
 
     
     var width = 300 , height = 300
