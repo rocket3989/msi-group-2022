@@ -2,18 +2,18 @@
 [
   {
     "path": "M -2000 0",
-    "text": "With a tie between PGG and UOL, the most important games are between them",
-    "team": "C9",
+    "text": "The results of Group C are all but locked in, but EG could still get first seed",
+    "team": "PSG",
     "lw": 21,
     "textOffset": [
       -117,
-      1008
+      470
     ]
   },
   {
     "path": "M -36,279 A 45.026 45.026 0 0 0 43,310",
     "text": "Tap to see how the first match affects the group",
-    "team": "PNG",
+    "team": "DFM",
     "lw": 21,
     "textOffset": [
       -47,
@@ -52,8 +52,8 @@
   },
   {
     "path": "M -2000 0",
-    "text": "A three way tie for second leaves possibilities wide open for Group C",
-    "team": "DFM",
+    "text": "A three way tie for second leaves possibilities wide open for Group B",
+    "team": "RED",
     "lw": 24,
     "textOffset": [
     234,-137
@@ -61,8 +61,8 @@
   },
   {
     "path": "M 210,247 A 24.767 24.767 0 0 1 168,222",
-    "text": "There is only a single scenario in which TES is eliminated without a tiebreaker",
-    "team": "TES",
+    "text": "There is only a single scenario in which T1 is eliminated without a tiebreaker",
+    "team": "T1",
     "lw": 24,
     "textOffset": [
     218, 198
@@ -70,8 +70,8 @@
   },
   {
     "path": "M 261,-64 A 62.002 62.002 0 0 1 182,4",
-    "text": "Even with three wins, IW can still be eliminated",
-    "team": "IW",
+    "text": "Even with three wins, AZE can still be eliminated",
+    "team": "AZE",
     "lw": 24,
     "textOffset": [
     165,
